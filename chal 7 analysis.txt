@@ -1,0 +1,29 @@
+Pewlett-Hackard:: Analysis upcoming employee retirements and feasability of mentoring younger employees.
+
+
+Overview of the analysis: Methods and Rational
+	Pewlett-Hackard's workforce is heavily stratified by age.  This means large groups will retire around the same time, which is not conducive to smooth transitions.  Six tables were created in PGAdmin with company data.  Relational databases were derived from the data.  Tables of the  total count of soon to be retired by job title and a list of younger employees who are eligible for mentorship were created.
+
+
+
+Results:
+Four major points:
+1. Around 3 times more people are retireing than are eligible for mentorship.
+2. Most of the employees eligable for mentorship already have a senior job title.
+3. The mentorship eligability standards will create age stratification in the future.
+4. Not all retirement-ready employees will be willing to mentor.
+
+	Retirement by title "retiring_titles"
+13651	"Senior Engineer"
+12872	"Senior Staff"
+2711	"Engineer"
+2022	"Staff"
+1609	"Technique Leader"
+251	"Assistant Engineer"
+2	"Manager"
+
+	Employees eligible for mentorship eligibilty: total of 1549 accross all job titles.  "mentorship_eligibilty"
+
+
+Summary:
+There aren't enough eligible people to mentor with the retirement ready people.  Most of the eligible people already have a senior job title and might gain little.  Some of the older people may choose to just retire instead of mentoring.
